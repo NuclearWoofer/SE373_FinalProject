@@ -15,7 +15,7 @@ app.post('/addtask', function (req, res) {
 
 //the server is listening on port 3000 for connections
 app.listen(3000, function () {
-  console.log('Example app listening on port 3000!')
+  console.log('listening on port 3000!')
 });
 
 
