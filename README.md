@@ -3,3 +3,5 @@ For my final project, I am creating a basic Planner App utilizing the skills lea
 
 https://dhtmlx.com/docs/products/dhtmlxScheduler/
 Above is the resource used for the Calendar aspect of the program.
+
+Technologies used: HTML, Javascript. Express as the web-framework and MongoDB.
