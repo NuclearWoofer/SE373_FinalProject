@@ -6,11 +6,11 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.set("view engine", "ejs");
 
-//render css files
-app.use(express.static("public"));
 
-//placeholders for added task
-var task = ["buy socks", "practise with nodejs"];
+app.use(express.static('/public/'));
+
+//placeholders
+var task = ["Buy milk and eggs.", "Pick up Dry Cleaning."];
 //placeholders for removed task
 var complete = ["finish jquery"];
 
